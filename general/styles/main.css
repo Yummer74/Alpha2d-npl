@@ -1,33 +1,41 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background: #121212;
-    color: white;
-    text-align: center;
-    padding-top: 80px;
-    display: flex;
-    flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  transition: background 0.5s ease, color 0.5s ease;
 }
 
+/* Основной текст */
 .text {
-    flex: 1;
-    font-size: 16px;
-    color: #00c3ff;
-    margin-top: 20px;
-    text-align: left;
-    padding: 4px;
+  flex: 1;
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: left;
+  padding: 4px;
 }
 
 
 .header-title + p {
-    padding-left: 10px; /* отступ для первого параграфа под заголовком */
+    padding-left: 10px;
 }
 
 .header-title ~ p {
-    padding-left: 10px; /* отступ для всех параграфов, следующих за заголовком */
+    padding-left: 10px;
+}
+
+
+/* Футер */
+.footer {
+  padding: 20px;
+  background: #1a1a1a;
+  color: #888;
+  font-size: 14px;
 }

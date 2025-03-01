@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alpha2d</title>
-  <link rel="stylesheet" href="general/styles/main.css">
+  <title>Поддержка - Alpha2d</title>
   <link rel="stylesheet" href="general/styles/header.css">
+  <link rel="stylesheet" href="general/styles/main.css">
   <link rel="stylesheet" href="general/styles/themes.css">
 </head>
 <body class="theme-neon">
@@ -15,18 +15,14 @@
       <b>Alpha2d &amp; npl</b>
     </div>
     <div class="header-buttons">
-      <!-- Кнопка для показа меню выбора темы -->
       <button id="theme-toggle" onclick="toggleThemeMenu()">
         <img src="general/images/theme-icon.png" alt="Выбор темы">
       </button>
-      <!-- Кнопка закрытия меню на мобильных -->
       <button id="close-menu-btn" onclick="closeMenu()">
         <img src="general/images/close-icon.png" alt="Закрыть меню">
       </button>
-      <!-- Гамбургер -->
       <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
     </div>
-    <!-- Выпадающее меню выбора темы -->
     <div id="theme-menu" class="theme-menu">
       <div class="theme-option" data-theme="theme-neon" onclick="setTheme(this)">Нионовая</div>
       <div class="theme-option" data-theme="theme-dark" onclick="setTheme(this)">Темная</div>
@@ -34,10 +30,8 @@
     </div>
   </header>
 
-  <!-- Оверлей для закрытия меню -->
   <div class="menu-overlay" id="menuOverlay" onclick="closeMenu()"></div>
   
-  <!-- Меню -->
   <div class="menu" id="menu">
     <a href="index.html">Главная</a>
     <a href="about.html">О нас</a>
@@ -46,33 +40,20 @@
       <div class="npl-button" onclick="toggleDropdownMobile()">NPL</div>
       <div class="dropdown-mobile" id="dropdownMobile">
         <a href="#">Переменные</a>
-        <a href="#">Условия</a>
-        <a href="#">Циклы</a>
         <a href="#">Функции</a>
-        <a href="#">API методы</a>
       </div>
     </div>
   </div>
   		
   <main class="text">
-    <h2 class="header-title">Alpha2d</h2>
-    <p><strong>Alpha2d</strong> — это мощное и удобное приложение для разработки <em>простых игр</em>. С его помощью вы можете создавать проекты, не обладая глубокими знаниями в программировании.</p>
-    <br>
-    <h2 class="header-title">Ключевые особенности</h2>
-    <p>● Собственный язык программирования <strong>npl</strong></p>
-    <p>● Интуитивно понятный синтаксис</p>
-    <p>● Простота реализации игровых механик</p>
-    <p>● Поддержка множества форматов ресурсов</p>
-    <br>
-    <h2 class="header-title">Возможности Alpha2d и npl</h2>
-    <p>Создавайте <em>графику</em>, добавляйте <em>звуковые эффекты</em> и <em>музыку</em>, разрабатывайте как <strong>2D-игры</strong>, так и <strong>головоломки</strong>.</p>
+    <p>Здесь можно подключить платежную систему для донатов в движок.</p>
   </main>
   
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <footer class="footer">
     <p>© 2025 Все права защищены</p>
   </footer>
-        		  
+  
   <script src="general/scripts/menu.js"></script>
   <script src="general/scripts/themes.js"></script>
 </body>

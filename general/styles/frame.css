@@ -1,33 +1,43 @@
+body {
+  background-color: #000000;
+  color: #0000FF;
+  font-family: Arial, sans-serif;
+}
 
 .box {
-    border: 2px solid #4CAF50; /* Цвет рамки */
-    border-radius: 10px; /* Скругление углов */
-    padding: 20px; /* Поля внутри рамки */
-    background-color: #191919; /* Цвет фона коробки */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень */
-    text-align: center; /* Центрирование текста */
-    max-width: 600px; /* Максимальная ширина */
-    margin: 10px; /* Отступы между блоками */
-    margin-top: 30px;
-    text-align: left;
+  border: 1.5px solid #00BFFF;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 2px 6px #00BFFF;
+  text-align: left;
+  max-width: 600px;
+  margin: 20px auto;
+  transition: transform 0.3s ease;
+}
+
+.box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px #00BFFF;
 }
 
 .box h2 {
-    margin: 0 0 15px 0; /* Отступы заголовка */
-    color: #39ff14; /* Цвет заголовка */
+  margin-bottom: 15px;
+  color: #00BFFF;
 }
 
 .box p {
-    color: #00c3ff; /* Цвет текста */
-    line-height: 1.6; /* Высота строки */
+  color: #87CEFA;
+  line-height: 1.6;
 }
 
 .box a {
-    color: #4CAF50; /* Цвет ссылки */
-    text-decoration: none; /* Убрать подчеркивание */
-    font-weight: bold; /* Жирный шрифт для ссылки */
+  color: #1E90FF;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .box a:hover {
-    text-decoration: underline; /* Подчеркивание при наведении */
+  text-decoration: underline;
+  color: #00FFFF;
 }

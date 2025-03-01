@@ -25,12 +25,13 @@
   margin-right: 10px;
 }
 
-/* скрываем лишнее меню в правом углу */
-.nav {
-  display: none;
+/* Блок для кнопок */
+.header-buttons {
+  display: flex;
+  align-items: center;
 }
 
-/* кнопка-гамбургер для мобильных */
+/* Кнопка-гамбургер */
 .hamburger {
   display: none;
   cursor: pointer;
@@ -38,7 +39,7 @@
   color: white;
 }
 
-/* оверлей для мобильного меню */
+/* Оверлей для меню */
 .menu-overlay {
   display: none;
   position: fixed;
@@ -84,7 +85,6 @@
   background: #00c3ff;
 }
 
-
 .dropdown-container-mobile {
   position: relative;
   margin: 10px 0;
@@ -107,7 +107,6 @@
   background: linear-gradient(135deg, #1e90ff, #00c3ff);
 }
 
-/* выпадающее меню для NPL в мобильной версии */
 .dropdown-mobile {
   display: none;
   background: #1a1a1a;
@@ -128,7 +127,7 @@
   background: #00c3ff;
 }
 
-/* боковое меню на пк */
+/* Меню для ПК */
 @media (min-width: 769px) {
   .menu {
     display: block !important;
@@ -155,7 +154,7 @@
   }
 }
 
-/* для мобильных устройств показываем гамбургер :> */
+/* Для мобильных устройств показываем гамбургер */
 @media (max-width: 768px) {
   .hamburger {
     display: block;
