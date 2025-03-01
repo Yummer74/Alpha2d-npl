@@ -1,4 +1,3 @@
-// открытие и закрытие мобильного меню
 function toggleMenu() {
   const menu = document.getElementById('menu');
   const overlay = document.getElementById('menuOverlay');
@@ -11,7 +10,6 @@ function toggleMenu() {
   }
 }
 
-// закрытие меню при клике вне его области
 function closeMenu() {
   const menu = document.getElementById('menu');
   const overlay = document.getElementById('menuOverlay');
@@ -19,7 +17,6 @@ function closeMenu() {
   overlay.style.display = 'none';
 }
 
-// аереключение выпадающего меню NPL в мобильной версии
 function toggleDropdownMobile() {
   const dropdownMobile = document.getElementById('dropdownMobile');
   dropdownMobile.style.display = (dropdownMobile.style.display === 'block') ? 'none' : 'block';
