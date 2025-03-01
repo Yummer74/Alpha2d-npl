@@ -4,14 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alpha2d</title>
-	  <link rel="stylesheet" href="styles/main.css">
-  <link rel="stylesheet" href="styles/header.css">
-  <link rel="stylesheet" href="styles/footer.css">
+	  <link rel="stylesheet" href="general/styles/main.css">
+  <link rel="stylesheet" href="general/styles/header.css">
 </head>
 <body>
   <header class="header">
     <div class="logo">
-      <img src="images/logo-doc.png" alt="logo">
+      <img src="general/images/logo-doc.png" alt="logo">
       <b>Alpha2d &amp; npl</b>
     </div>
     <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
@@ -23,23 +22,44 @@
   <!-- меню -->
   <div class="menu" id="menu">
     <a href="index.html">Главная</a>
-  	 	<a href="pages/about.html">О нас</a>
-  		 <a href="pages/support.html">Поддержка</a>
+  	 	<a href="about/index.html">О нас</a>
+  		 <a href="support/index.html">Поддержка</a>
   		
     <div class="dropdown-container-mobile">
       <div class="npl-button" onclick="toggleDropdownMobile()">NPL</div>
       <div class="dropdown-mobile" id="dropdownMobile">
         <a href="#">Переменные</a>
+        <a href="#">Условия</a>
+        <a href="#">Циклы</a>
         <a href="#">Функции</a>
+        <a href="#">API методы</a>
       </div>
     </div>
   </div>
   		
-  <main>
-    <p class="text">Тут всякое умное описание, файлы для скачивания и т. п.</p>
+  <main class="text">
+    <h2 class="header-title">Alpha2d</h1>
+    <p><strong>Alpha2d</strong> — это мощное и удобное приложение, предназначенное для разработки <em>простых игр</em>. С помощью этого инструмента пользователи могут легко создавать игровые проекты, не обладая глубокими знаниями в области программирования.</p>
+    
+    <br><h2 class="header-title">Ключевые особенности</h2>
+    
+      <p>● Собственный язык программирования <strong>npl</strong></p><br>
+      <p>● Интуитивно понятный синтаксис, подходящий для начинающих разработчиков</p><br>
+      <p>● Простота реализации различных игровых механик</p><br>
+      <p>● Поддержка множества форматов ресурсов для гибкой разработки</p><br>
+    
+    
+    <br><h2 class="header-title">Возможности Alpha2d и npl</h2>
+    <p>С помощью <strong>Alpha2d</strong> и <strong>npl</strong> пользователи могут:</p>
+    <p>Создавать <em>графику</em></p>
+    <p>Добавлять <em>звуковые эффекты</em> и <em>музыку</em></p>
+    <br>
+    
+    <p>Таким образом, <strong>Alpha2d</strong> и его язык программирования <strong>npl</strong> представляют собой отличное решение для тех, кто хочет попробовать себя в <em>разработке игр</em> — от создания простых проектов до более сложных игровых приложений. Пользователи могут разрабатывать как <strong>2D-игры</strong>, так и <strong>платформеры</strong>, <strong>головоломки</strong> или <strong>аркады</strong>, внося в них уникальные элементы и индивидуальный стиль.</p>
+    
   </main>
-	  
-	  
-  <script src="scripts/menu.js"></script>
-</body>
-</html>
+        	  
+        	  
+          <script src="general/scripts/menu.js"></script>
+        </body>
+        </html>

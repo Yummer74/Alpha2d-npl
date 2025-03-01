@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alpha2d</title>
+  <link rel="stylesheet" href="../general/styles/header.css">
+  <link rel="stylesheet" href="../general/styles/main.css">
+  <link rel="stylesheet" href="../general/styles/frame.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="../general/images/logo-doc.png" alt="logo">
+      <b>Alpha2d &amp; npl</b>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+  </header>
+
+  <!-- оверлей для закрытия меню при клике вне его области -->
+  <div class="menu-overlay" id="menuOverlay" onclick="closeMenu()"></div>
+  
+  <!-- меню -->
+  <div class="menu" id="menu">
+    <a href="../index.html">Главная</a>
+  	 	<a href="../about/index.html">О нас</a>
+  		 <a href="../support/index.html">Поддержка</a>
+  		
+    <div class="dropdown-container-mobile">
+      <div class="npl-button" onclick="toggleDropdownMobile()">NPL</div>
+      <div class="dropdown-mobile" id="dropdownMobile">
+        <a href="#">Переменные</a>
+        <a href="#">Условия</a>
+        <a href="#">Циклы</a>
+        <a href="#">Функции</a>
+        <a href="#">API методы</a>
+      </div>
+    </div>
+  </div>
+  		
+    <main class="text">
+      <h1>О нас</h1>
+        <div class="box">
+            <h2 class="header-title">Меня зовут Yummer!</h2>
+            <p>Я разработчик игрового движка <strong>Alpha2D</strong>, а также создаю захватывающие игры и приложения.</p>
+            <p>Моя цель — создавать качественные и удобные приложения для разработки игр на <strong>Android</strong>.</p>
+            <br><p>Если вам интересно узнать больше и пообщаться, пиши мне на <a href="https://t.me/Yummy_creator" target="_blank">Telegram</a>!</p>
+        </div>
+    
+        <div class="box">
+            <h2 class="header-title">Меня зовут Артём!</h2>
+            <p>Так же известный как: GribDev, GribbAI, Grib</p>
+            <p>Я разработчик этого сайта, и также принимаю участие в других проектах.</p>
+            <p>Моя цель — помогать людям и воплощать свои мечты!</p>
+            <p>В идеале я владею такими языками, как: <strong>Python</strong>, <strong>C++</strong>, <strong>JavaScript</strong>, <strong>Bash</strong>.</p>
+            <br><p>Если вам интересно узнать больше и пообщаться, пиши мне на <a href="https://t.me/GribDev" target="_blank">Telegram</a>!</p>
+        </div>
+      
+        <div class="box">
+            <h2 class="header-title">Полезные ссылки</h2>
+            <h3 class="header-title"><a href="https://t.me/YUMMYSCRIPT" target="_blank">Alpha2d engine (nlp)</a></h3>
+            <p>Alpha2d - новый движок, разрабатывается мною</p>
+            <p>Имеет свой собственный язык программирования NPL</p>
+            <br>
+            <h3 class="header-title"><a href="https://t.me/Gribboo" target="_blank">Грибной канал</a></h3>
+            <p>программирование и всякое другое</p>
+        </div>
+      </main>
+  <script src="../general/scripts/menu.js"></script>
+</body>
+</html>

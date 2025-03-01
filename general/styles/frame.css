@@ -1,0 +1,33 @@
+
+.box {
+    border: 2px solid #4CAF50; /* Цвет рамки */
+    border-radius: 10px; /* Скругление углов */
+    padding: 20px; /* Поля внутри рамки */
+    background-color: #191919; /* Цвет фона коробки */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень */
+    text-align: center; /* Центрирование текста */
+    max-width: 600px; /* Максимальная ширина */
+    margin: 10px; /* Отступы между блоками */
+    margin-top: 30px;
+    text-align: left;
+}
+
+.box h2 {
+    margin: 0 0 15px 0; /* Отступы заголовка */
+    color: #39ff14; /* Цвет заголовка */
+}
+
+.box p {
+    color: #00c3ff; /* Цвет текста */
+    line-height: 1.6; /* Высота строки */
+}
+
+.box a {
+    color: #4CAF50; /* Цвет ссылки */
+    text-decoration: none; /* Убрать подчеркивание */
+    font-weight: bold; /* Жирный шрифт для ссылки */
+}
+
+.box a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
